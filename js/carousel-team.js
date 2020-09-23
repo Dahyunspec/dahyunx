@@ -1,6 +1,6 @@
 $(document).ready(function(){
     $('#team .team').slick({
-      slidesToShow: 2,
+      slidesToShow: 6,
       slidesToScroll: 1,
       autoplay: true,
       autoplaySpeed: 1000,
