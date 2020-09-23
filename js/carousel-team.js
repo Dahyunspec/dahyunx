@@ -8,6 +8,7 @@ $(document).ready(function(){
       variableWidth: true,
       arrows: false,
       dots: false,
+      responsive: true,
       pauseOnHover: false,
       responsive: [{
         breakpoint: 768,
