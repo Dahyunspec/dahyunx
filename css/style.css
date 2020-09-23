@@ -433,7 +433,9 @@ header .intro-text {
 }
 
 #team .slick-slide{	
-	width: 370px;	
+	width: auto;
+	min-width: 300px;
+	max-width: 390px;
 }
 
 #team .slick-slide img {
