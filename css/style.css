@@ -221,7 +221,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 }
 
 .intro img{
-	min-width: 50px;
+	min-width: 75px;
 	width: 100%;
 }
 
