@@ -426,7 +426,9 @@ header .intro-text {
 }
 
 #team .slick-slide{
-	width: 400px;
+	width: 390px;
+	margin-left: 0px;
+	margin-right: 0px;
 }
 
 #team .slick-slide img {
