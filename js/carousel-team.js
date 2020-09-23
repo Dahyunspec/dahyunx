@@ -7,8 +7,7 @@ $(document).ready(function(){
       centerMode: true,
       variableWidth: true,
       arrows: false,
-      dots: false,
-      responsive: true,
+      dots: false,      
       pauseOnHover: false,
       responsive: [{
         breakpoint: 768,
