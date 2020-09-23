@@ -433,7 +433,6 @@ header .intro-text {
 }
 
 #team .slick-slide{	
-	width: fit-content;
 	min-width: 250px;
 	max-width: 390px;
 }
