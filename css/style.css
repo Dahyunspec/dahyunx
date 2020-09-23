@@ -210,8 +210,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 
 .intro {
 	display: table;
-	width: 100%;
-	min-width: 300px;
+	width: 100%;	
 	padding: 0;
 	background: url(../img/intro-bg.jpg) center center no-repeat;
 	background-color: #e5e5e5;
@@ -220,6 +219,12 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	background-size: cover;
 	-o-background-size: cover;
 }
+
+.intro img{
+	min-width: 50px;
+	width: 100%;
+}
+
 .intro .overlay {
 	background: rgba(0,0,0,0.3);
 }
