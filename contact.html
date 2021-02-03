@@ -70,8 +70,8 @@
     <div class="col-md-8">
       <div class="row">
         <div class="section-title">
-          <h2>Cotiza con nosotros</h2>
-          <p>Llena este formulario y te responderemos lo antes posible.</p>
+          <h2>Datos</h2>
+          <p>Deja tus datos para que podemos ingresarte a nuestras bases de datos</p>
         </div>
         <form name="sentMessage" id="contactForm" novalidate>
           <div class="row">
@@ -87,7 +87,21 @@
                 <p class="help-block text-danger"></p>
               </div>
             </div>
+            <div class="col-md-6">
+              <div class="form-group">
+                <input type="address" id="address" class="form-control" placeholder="Dirección" required="required">
+                <p class="help-block text-danger"></p>
+              </div>
+            </div>          
+          <div class="col-md-6">
+            <div class="form-group">
+              <input type="phone" id="phone" class="form-control" placeholder="Telefono" required="required">
+              <p class="help-block text-danger"></p>
+            </div>
           </div>
+        </div>
+          
+          
           <div class="form-group">
             <textarea name="message" id="message" class="form-control" rows="4" placeholder="Mensaje" required></textarea>
             <p class="help-block text-danger"></p>

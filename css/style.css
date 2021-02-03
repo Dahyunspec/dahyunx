@@ -142,7 +142,7 @@ hr {
 .btn-custom {
 	text-transform: uppercase;
 	color: #fff;
-	background-color: #146EB4;
+	background-color: #1E7A46;
 	padding: 14px 20px;
 	letter-spacing: 1px;
 	margin: 0;
@@ -209,21 +209,24 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 /* #Header */
 
 .intro {
-	display: table;
-	width: 100%;	
+	display: block;	
+	width: 100%;
 	padding: 0;
 	background: url(../img/intro-bg.jpg) center center no-repeat;
 	background-color: #e5e5e5;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
-	background-size: cover;
+	background-size: block;
 	-o-background-size: cover;
 }
 
-.intro img{
-	min-width: 75px;
-	width: 100%;
-}
+/*.intro img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 25%;	
+	min-width: 75px;	
+}*/
 
 .intro .overlay {
 	background: rgba(0,0,0,0.3);
