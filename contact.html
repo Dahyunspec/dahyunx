@@ -99,20 +99,42 @@
               <p class="help-block text-danger"></p>
             </div>
           </div>
-        </div>
+          <div class="col-md-6">
+            <div class="form-group">
+              <input type="company" id="company" class="form-control" placeholder="Empresa" required="required">
+              <p class="help-block text-danger"></p>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="form-group">
+              <input type="position" id="position" class="form-control" placeholder="Cargo" required="required">
+              <p class="help-block text-danger"></p>
+            </div>
+          </div>
+        </div>      
           
           
           <div class="form-group">
-            <textarea name="message" id="message" class="form-control" rows="4" placeholder="Mensaje" required></textarea>
+            <textarea name="message" id="message" class="form-control" rows="4" placeholder="Mensaje"></textarea>
             <p class="help-block text-danger"></p>
           </div>
+
+          <div class="form-check">
+            <input type="checkbox" id="habeas-data" name="habeas-data" value="yes">
+            <label for="habeas-data"> He leido y estoy de acuerdo con los<a link href="index.html"> terminos y condiciones</a><br>
+          </div>
+
           <div id="success"></div>
-          <button type="submit" class="btn btn-custom btn-lg">Enviar mensaje</button>
+          <button type="submit" class="btn btn-custom btn-lg">Enviar datos</button>
         </form>
       </div>
     </div>
-    <div class="col-md-3 col-md-offset-1 contact-info">
+          
+
+
+    <div class="col-md-3 col-md-offset-1 contact-info">      
       <div class="contact-item">
+
         <h4>Información de contacto</h4>
         <p><span>Dirección</span>Lorem<br>
           Medellin, CO</p>

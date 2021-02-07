@@ -60,6 +60,7 @@
         <div class="row">
           <div class="col-md-8 col-md-offset-2 intro-text">
             <!-- <img src=img/logoheader.png class="img-responsive"> !-->
+            <h1>Grupo Trebol Comunicaciones</h1>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam. Sed commodo nibh ante facilisis bibendum dolor feugiat at.</p>
             <a href="#about" class="btn btn-custom btn-lg page-scroll">Lee mas</a> </div>
         </div>
@@ -74,10 +75,10 @@
   <div class="container">
     <div class="row">
       <div class="col-xs-12 col-md-6 col-md-offset-1">
-        <h3>Cotizacion de tu evento</h3>
-        <p>Contactanos hoy para cotizar tu evento.</p>
+        <h3>Dejanos tus datos</h3>
+        <p>Dejanos tu información de contacto para agregarte hoy a nuestras bases de datos.</p>
       </div>
-      <div class="col-xs-12 col-md-4 text-center"><a href="#contact" class="btn btn-custom btn-lg page-scroll">Cotización gratuita</a></div>
+      <div class="col-xs-12 col-md-4 text-center"><a href="#contact" class="btn btn-custom btn-lg page-scroll">Deja tu información</a></div>
     </div>
   </div>
 </div>
@@ -87,7 +88,9 @@
 <div id="about">
   <div class="container">
     <div class="row">
-      <div class="col-xs-12 col-md-6"> <img src="img/about.jpg" class="img-responsive" alt=""> </div>
+      <div class="col-xs-12 col-md-6"><!-- <img src="img/about.jpg" class="img-responsive" alt="">--> <iframe width="500" height="500"
+        src="https://www.youtube.com/embed/tgbNymZ7vqY">
+        </iframe> </div>
       <div class="col-xs-12 col-md-6">
         <div class="about-text">
           <h2>¿Quienes somos?</h2>
@@ -121,8 +124,8 @@
     <div class="col-md-8">
       <div class="row">
         <div class="section-title">
-          <h2>Cotiza con nosotros</h2>
-          <p>Llena este formulario y te responderemos lo antes posible.</p>
+          <h2>Datos</h2>
+          <p>Deja tus datos para que podemos ingresarte a nuestras bases de datos</p>
         </div>
         <form name="sentMessage" id="contactForm" novalidate>
           <div class="row">
@@ -138,20 +141,56 @@
                 <p class="help-block text-danger"></p>
               </div>
             </div>
+            <div class="col-md-6">
+              <div class="form-group">
+                <input type="address" id="address" class="form-control" placeholder="Dirección" required="required">
+                <p class="help-block text-danger"></p>
+              </div>
+            </div>          
+          <div class="col-md-6">
+            <div class="form-group">
+              <input type="phone" id="phone" class="form-control" placeholder="Telefono" required="required">
+              <p class="help-block text-danger"></p>
+            </div>
           </div>
+          <div class="col-md-6">
+            <div class="form-group">
+              <input type="company" id="company" class="form-control" placeholder="Empresa" required="required">
+              <p class="help-block text-danger"></p>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="form-group">
+              <input type="position" id="position" class="form-control" placeholder="Cargo" required="required">
+              <p class="help-block text-danger"></p>
+            </div>
+          </div>
+        </div>      
+          
+          
           <div class="form-group">
-            <textarea name="message" id="message" class="form-control" rows="4" placeholder="Mensaje" required></textarea>
+            <textarea name="message" id="message" class="form-control" rows="4" placeholder="Mensaje"></textarea>
             <p class="help-block text-danger"></p>
           </div>
+
+          <div class="form-check">
+            <input type="checkbox" id="habeas-data" name="habeas-data" value="yes">
+            <label for="habeas-data"> He leido y estoy de acuerdo con los<a link href="index.html"> terminos y condiciones</a><br>
+          </div>
+
           <div id="success"></div>
-          <button type="submit" class="btn btn-custom btn-lg">Enviar mensaje</button>
+          <button type="submit" class="btn btn-custom btn-lg">Enviar datos</button>
         </form>
       </div>
     </div>
-    <div class="col-md-3 col-md-offset-1 contact-info">
+          
+
+
+    <div class="col-md-3 col-md-offset-1 contact-info">      
       <div class="contact-item">
+
         <h4>Información de contacto</h4>
-        <p><span>Dirección</span>bla bla bla<br>
+        <p><span>Dirección</span>Lorem<br>
           Medellin, CO</p>
       </div>
       <div class="contact-item">
@@ -175,7 +214,6 @@
     </div>
   </div>
 </div>
-
 <!-- #Footer -->
 <div id="footer">
   <footer>
