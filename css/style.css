@@ -399,6 +399,28 @@ header .intro-text {
 	margin: 30px 0;
 }
 
+/* #Our Team */
+
+#ourteam body{
+    background-color:#eee;
+    margin-top:20px;
+}
+#ourteam .border-5, .border-w-5 {
+    border-width: 5px !important;
+}
+#ourteam .border-white {
+    border: 1px solid transparent;
+    border-color: #fff !important;
+}
+#ourteam hr.hr-primary {
+    border-top-color: #CC164D!important;
+}
+em {
+    font-style: italic;
+}
+#ourteam .font-weight-normal {
+    font-weight: 400 !important;
+}
 
 /* #Team */
 
