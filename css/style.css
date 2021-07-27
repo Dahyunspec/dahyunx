@@ -415,7 +415,7 @@ header .intro-text {
 #ourteam hr.hr-primary {
     border-top-color: #CC164D!important;
 }
-em {
+#ourteam em {
     font-style: italic;
 }
 #ourteam .font-weight-normal {
