@@ -401,6 +401,12 @@ header .intro-text {
 
 /* #Our Team */
 
+#ourteam{	
+	background-color: #fff;
+	margin-bottom: 50px;
+	margin-top: 50px;
+}
+
 #ourteam body{
     background-color:#eee;
     margin-top:20px;
