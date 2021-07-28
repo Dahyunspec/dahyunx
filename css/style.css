@@ -399,37 +399,68 @@ header .intro-text {
 	margin: 30px 0;
 }
 
-/* #Our Team */
-
-#ourteam{	
+/* #Mowies*/
+#mowies {
 	background-color: #fff;
 	margin-bottom: 50px;
 	margin-top: 50px;
 }
 
-#ourteam body{
-    background-color:#eee;
-    margin-top:20px;
+#mowies img{
+	border-radius: 8px;
+	max-width: 100%;
+	height: auto;
+	opacity: 0.8;
+	margin-top: 50px; 
 }
-#ourteam .border-5, .border-w-5 {
-    border-width: 5px !important;
+
+
+#mowies .mowies-text h2{
+	font-family: "Montserrat", sans-serif;
+	color: #169e1e;
+	font-weight: 700;
+	text-align: left;
 }
-#ourteam .border-white {
-    border: 1px solid transparent;
-    border-color: #fff !important;
+
+#mowies .mowies-text li{
+	font-family: "Montserrat", sans-serif;
+	text-align: left;
 }
-#ourteam hr.hr-primary {
-    border-top-color: #CC164D!important;
-}
-#ourteam em {
-    font-style: italic;
-}
-#ourteam .font-weight-normal {
-    font-weight: 400 !important;
-}
+
 
 /* #Team */
 
+.team-member h2 {
+    margin: 0;
+}
+
+.team-member h3 {
+    font-weight: 400;
+}
+
+.team-member .col-md-4 {
+    margin: 50px 0;
+}
+
+.team-member i{
+	font-size: 25px;	
+}
+
+/* Team Creative */
+
+.team-content {
+    padding: 50px 10px;
+}
+
+.team-content i {
+    padding: 0 10px;
+    font-size: 30px;
+}
+
+
+
+/*
+Team
 
 #team .slide ul li {
 	display: inline-block;
@@ -590,7 +621,7 @@ header .intro-text {
 #team .slick-arrow.slick-hidden {
     display: none;
 }
-
+*/
 /* #Services */
 
 #services {
