@@ -401,17 +401,22 @@ header .intro-text {
 
 /* #Mowies*/
 #mowies {
+	padding: 50px 0;
 	background-color: #fff;
-	margin-bottom: 50px;
-	margin-top: 50px;
+}	
+
+#mowies .prueba .container{
+	margin-bottom: 75px;
 }
 
-#mowies img{
+#mowies .prueba .container img{	
+	border: 10px;
 	border-radius: 8px;
 	max-width: 100%;
 	height: auto;
 	opacity: 0.8;
-	margin-top: 50px; 
+	margin-top: 50px; 	
+	box-shadow: 0 0 50px rgba(0,0,0,0.06);
 }
 
 
