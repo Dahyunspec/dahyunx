@@ -83,7 +83,7 @@ hr {
 	font-family: 'Montserrat', sans-serif;
 	text-transform: uppercase;
 	color: #169E1E;
-	font-size: 12px;
+	font-size: 11px;
 	font-weight: 700;
 	padding: 8px 2px;
 	border-radius: 0;
@@ -432,6 +432,69 @@ header .intro-text {
 	text-align: left;
 }
 
+/* #Responsability */
+#responsability {
+	padding: 50px 0;
+	background-color: #fff;
+}	
+
+#responsability .prueba .container{
+	margin-bottom: 75px;
+}
+
+#responsability .prueba .container img{	
+	border: 10px;
+	border-radius: 8px;
+	max-width: 100%;
+	height: auto;
+	opacity: 0.8;
+	margin-top: 50px; 	
+	box-shadow: 0 0 50px rgba(0,0,0,0.06);
+}
+
+#responsability .mowies-text h2{
+	font-family: "Montserrat", sans-serif;
+	color: #169e1e;
+	font-weight: 700;
+	text-align: left;
+}
+
+#responsability .mowies-text li{
+	font-family: "Montserrat", sans-serif;
+	text-align: left;
+}
+
+#amygdala{
+	background-color: #169e1e;
+}
+#amygdala .prueba-amygdala .container{
+	margin-bottom: 75px;
+}
+
+#amygdala .prueba-amygdala .container img{	
+	border: 10px;
+	border-radius: 8px;
+	max-width: 100%;
+	height: auto;	
+	margin-top: 50px; 	
+	box-shadow: 0 0 50px rgba(0,0,0,0.06);
+}
+
+#amygdala .mowies-text h2{
+	font-family: "Montserrat", sans-serif;
+	color: #fff;
+	font-weight: 700;
+	text-align: left;
+}
+
+#amygdala .mowies-text li{
+	font-family: "Montserrat", sans-serif;
+	text-align: left;
+	color: #fff;
+}
+
+
+
 
 /* #Team */
 
@@ -464,9 +527,8 @@ header .intro-text {
 
 
 
-/*
-Team
 
+/* Team */
 #team .slide ul li {
 	display: inline-block;
 	margin: 0 5px;	
@@ -626,7 +688,7 @@ Team
 #team .slick-arrow.slick-hidden {
     display: none;
 }
-*/
+
 /* #Services */
 
 #services {
@@ -1115,7 +1177,6 @@ color: #777;
 	margin-top: 50px;
 	margin-bottom: 50px;
 }
-
 
 /* #Footer */
 #footer {
