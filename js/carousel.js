@@ -1,7 +1,7 @@
 $(document).ready(function(){
     $('#clients .customer-logos').slick({
       slidesToShow: 6,
-      slidesToScroll: 6,
+      slidesToScroll: 2,
       autoplay: true,
       autoplaySpeed: 1000,
       arrows: false,
@@ -10,12 +10,12 @@ $(document).ready(function(){
       responsive: [{
         breakpoint: 768,
         settings: {
-          slidesToShow: 4
+          slidesToShow: 6
         }
       }, {
         breakpoint: 520,
         settings: {
-          slidesToShow: 3
+          slidesToShow: 6
         }
       }]
     });
